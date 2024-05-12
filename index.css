@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF0000;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+/* Estilos para a lista */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para os links dentro dos itens da lista */
+
+ul li a {
+    text-decoration: none;
+    color: #000000; /* Cor do link */
+}
+
+/* Estilos para o hover nos links dentro dos itens da lista */
+
+ul li a:hover {
+    color: #ffffff; /* Cor do link quando passa o mouse por cima */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+section div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #FF0000;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
